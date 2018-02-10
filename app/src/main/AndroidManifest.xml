@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.mapdemo1">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logosmec"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.user.mapdemo1.WelcomeActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+                     <meta-data
+                android:name="com.google.android.geo.API_KEY"
+                android:value="@string/google_maps_key" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name=".EducationalActivity"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".Atm"
+            android:label="@string/title_activity_atm" />
+        <activity
+            android:name=".hospitals"
+            android:label="@string/title_activity_hospitals" />
+        <activity
+            android:name=".banks"
+            android:label="@string/title_activity_banks" />
+        <activity
+            android:name=".reastaurants"
+            android:label="@string/title_activity_reastaurants" />
+        <activity android:name=".WelcomeSlide1Activity" />
+        <activity android:name=".WelcomeSlide2Activity" />
+        <activity android:name=".WelcomeSlide3Activity" />
+        <activity android:name=".WelcomeSlide4Activity" />
+    </application>
+
+</manifest>

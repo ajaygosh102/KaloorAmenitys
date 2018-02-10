@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">KaloorAmenities</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_atm">Map</string>
+    <string name="title_activity_hospitals">Map</string>
+    <string name="title_activity_banks">Map</string>
+    <string name="title_activity_reastaurants">Map</string>
+    <string name="title_activity_welcome_slide">WelcomeSlideActivity</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+
+
+    <string name="slide_2_title">SMEClabs</string>
+    <string name="amenities">Use the map of Kaloor,Cochin and quickly locate essential amenities Educational Institutions, ATM ,Banks, Hospitals and Restaurants others with ease.</string>
+    <string name="slide_2_desc">" SMEClabs is the research, development and training wing of SMEC Automation, an ISO 9001:2008 global solution provider and the Authorized System Integrator of Schneider Electric, France."</string>
+
+    <string name="slide_3_title">SMEC Building Automation</string>
+    <string name="slide_3_desc">The Android based Building Automation system controls the appliances in the 3 floors of a building each floor consists of two lights one a chandelier and one fan. It consists of an Aurdino controller and relay boards for switching the lines in the three floors</string>
+    <string name="slide_5_desc">using the android application installed in the phone we can control the appliances by selecting each floor in the menu. The menu consists of three pages for the consecutive floors</string>
+    <string name="slide_6_desc">We can control the appliances within a range of 20 meters using this systemn</string>
+
+    <string name="slide_4_title">Cochin</string>
+    <string name="slide_4_desc">2nd Floor , Municipal Complex , Kaloor , Cochin</string>
+
+    <string name="play_again_desc">To see the welcome slider again click Play Again</string>
+    <string name="play_again">Play Again</string>
+</resources>
+
+
